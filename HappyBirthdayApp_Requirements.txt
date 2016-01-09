@@ -1,0 +1,21 @@
+Summary:
+
+Prompt user for their facebook username, password, friend's username, and
+the birthday message they want to send.
+
+Facebook Data Collection:
+username field: id="email"
+password field: id="pass"
+submit button: "#loginButton input"
+[click] OR [ENTER]
+
+search field: #js_19 div[role="combobox"]
+search field: #js_19 input[name="q"]
+search button: #js_19 [type="submit"]
+[click]
+
+first result image link: #initial_browse_result a[tabindex="-1"]
+[click]
+
+birthday input: textarea#u_jsonp_3_y
+[ENTER]
